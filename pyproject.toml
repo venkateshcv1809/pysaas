@@ -3,7 +3,7 @@ name = "pysaas"
 version = "0.1.0"
 description = "A comprehensive SaaS blueprint and framework in a monorepo structure, built with Python microservices and modern cloud-native practices."
 authors = [
-    {name = "VENKATESH C V", email = "venkateshvairam@gmail.com"}
+    {name = "VENKATESH C V", email = "venkateshvairam@gmail.com"} # CORRECTED: Back to list of objects
 ]
 readme = "README.md"
 requires-python = ">=3.13"
@@ -20,19 +20,17 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Application Frameworks",
 ]
 
-[tool.poetry.packages]
-# This specifies that Python packages are found in the 'services' directory.
-# Each sub-directory within 'services' will typically be its own microservice/package.
-include = [
-    { from = "services", to = "services" },
+[tool.poetry]
+packages = [
+    { include = "services" }
 ]
 
+
 [tool.poetry.group.dev.dependencies]
-# Development dependencies go here. These are not required for the final deployed application.
-black = "^24.4.2"      # Code formatter
-isort = "^5.13.2"      # Import sorter
-flake8 = "^7.0.0"      # Linter
-pytest = "^8.1.1"      # Testing framework
+black = "^24.4.2"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+pytest = "^8.1.1"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

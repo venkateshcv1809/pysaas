@@ -50,19 +50,36 @@ This monorepo is organized into the following top-level directories:
 
 ### Getting Started (Local Development)
 
-This section will contain links to detailed setup instructions once the `docs/local_development.md` file is created.
+To get started with PySaaS, refer to our detailed local development guide:
+
+- **[Local Development Guide](docs/local_development.md)**
+
+### Documentation
+
+Explore the comprehensive documentation for PySaaS:
+
+- **[AI-Assisted Workflow](docs/ai_assisted_workflow.md)**
+- **[Architecture Overview](docs/architecture.md)**
+- **[Code Style Guidelines](docs/code_style_guidelines.md)**
+- **[Development Workflow](docs/development_workflow.md)**
+- **[Testing Strategy](docs/testing_strategy.md)**
 
 ### Development Workflow
 
-Our development workflow will follow an AI-assisted agile methodology with a simplified Gitflow strategy and Conventional Commits. More details will be in `docs/development_workflow.md`.
+Our development workflow will follow an AI-assisted agile methodology with a simplified Gitflow strategy and Conventional Commits. More details can be found in our:
+
+- **[Development Workflow Guide](docs/development_workflow.md)**
 
 ### Contributing
 
-We welcome contributions! Please refer to the pull request template and contribution guidelines.
+We welcome contributions! Please refer to our:
+
+- **[Development Workflow Guide](docs/development_workflow.md)**
+- **[Code Style Guidelines](docs/code_style_guidelines.md)**
 
 ### License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 

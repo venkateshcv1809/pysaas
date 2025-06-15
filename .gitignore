@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.tox/
+dist/
+build/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+
+# Poetry
+.poetry/
+.venv/
+poetry.lock
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
